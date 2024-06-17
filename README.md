@@ -34,6 +34,14 @@ Open the project in GitHub Codespaces by clicking the button below:
 
 ### Deploying to Azure
 
+1. Login with your Azure account. You'll need to use an account that has permissions to create resource groups, so a personal account may work better than a corporate account.
+
+    ```shell
+    azd auth login
+    ```
+
+    In Codespaces, this should use the device code flow where you copy and paste a code into the login window.
+
 1. Create a new azd environment:
 
     ```shell
