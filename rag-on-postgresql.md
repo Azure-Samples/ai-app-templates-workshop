@@ -13,7 +13,7 @@ with https://github.com/Azure-Samples/rag-postgres-openai-python/
 
 Open the project in GitHub Codespaces by clicking the button below:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/Azure-Samples/rag-postgres-openai-python/)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/Azure-Samples/rag-postgres-openai-python)
 
 👀 The Codespace will display the default project README when it opens. Ignore that one, and follow this guide instead.
 
