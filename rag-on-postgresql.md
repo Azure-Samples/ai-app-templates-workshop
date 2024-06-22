@@ -21,15 +21,11 @@ Open the project in GitHub Codespaces by clicking the button below:
 
 This step will run the app in a local server inside GitHub Codespaces.
 
-1. Copy `.env.sample` to `.env` and fill in the values for `AZURE_OPENAI_ENDPOINT`, `AZURE_OPENAI_KEY`,  `AZURE_OPENAI_CHATGPT_DEPLOYMENT`, and `AZURE_OPENAI_EMBED_DEPLOYMENT` to use the Azure OpenAI proxy service:
+1. Copy `.env.sample` to `.env` and fill in the values for `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_KEY`, to use the Azure OpenAI proxy service:
 
     ```bash
     AZURE_OPENAI_ENDPOINT=https://YOUR-ENDPOINT-HERE/api/v1
     AZURE_OPENAI_KEY=YOUR-KEY-HERE
-    AZURE_OPENAI_CHAT_DEPLOYMENT=gpt-35-turbo
-    AZURE_OPENAI_CHAT_MODEL=gpt-35-turbo
-    AZURE_OPENAI_EMBED_DEPLOYMENT=text-embedding-ada-002
-    AZURE_OPENAI_EMBED_MODEL=text-embedding-ada-002
     ```
 
 2. Build the frontend:
