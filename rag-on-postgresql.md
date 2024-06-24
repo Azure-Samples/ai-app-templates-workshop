@@ -28,6 +28,14 @@ This step will run the app in a local server inside GitHub Codespaces.
     AZURE_OPENAI_KEY=YOUR-KEY-HERE
     ```
 
+2. Install the FastAPI backend dependencies, set up the local database, and seed it with test data:
+
+    ```bash
+    python3 -m pip install -e src
+    python ./src/fastapi_app/setup_postgres_database.py
+    python ./src/fastapi_app/setup_postgres_seeddata.py
+    ```
+
 2. Build the frontend:
 
     ```bash
