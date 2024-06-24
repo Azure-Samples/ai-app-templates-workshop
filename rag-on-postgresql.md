@@ -79,8 +79,6 @@ This step will run the app in a local server inside GitHub Codespaces.
 
     ```shell
     azd env set DEPLOY_AZURE_OPENAI false
-    azd env set AZURE_OPENAI_CHAT_DEPLOYMENT gpt-35-turbo
-    azd env set AZURE_OPENAI_EMBED_DEPLOYMENT text-embedding-ada-002
     azd env set AZURE_OPENAI_ENDPOINT https://YOUR-ENDPOINT-HERE/api/v1
     azd env set AZURE_OPENAI_KEY YOUR-KEY-HERE
     ```
