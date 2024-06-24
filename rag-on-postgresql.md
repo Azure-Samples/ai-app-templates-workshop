@@ -42,6 +42,7 @@ This step will run the app in a local server inside GitHub Codespaces.
     cd src/frontend
     npm install
     npm run build
+    cd ..
     ```
 
     There must be an initial build of static assets before running the backend, since the backend serves static files from the `src/static` directory.
