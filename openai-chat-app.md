@@ -59,16 +59,26 @@ This step will run the app in a local server inside GitHub Codespaces.
 
     This will create a folder in `.azure` to store the configuration for the deployment.
 
-4. Set the following azd environment variables to use the Azure OpenAI proxy service. Replace `YOUR-ENDPOINT-HERE` and `YOUR-KEY-HERE`:
+4. Set the following azd environment variables to use the Azure OpenAI proxy service. Run these two commands with no change:
 
     ```shell
     azd env set CREATE_AZURE_OPENAI false
     azd env set AZURE_OPENAI_CHATGPT_DEPLOYMENT gpt-35-turbo
+    ```
+
+    Replace the value of `AZURE_OPENAI_ENDPOINT` before running this command:
+   
+    ```shell
     azd env set AZURE_OPENAI_ENDPOINT https://YOUR-ENDPOINT-HERE/api/v1
+    ```
+
+    Replace the value of `AZURE_OPENAI_KEY` before running this command:
+
+    ```shell
     azd env set AZURE_OPENAI_KEY YOUR-KEY-HERE
     ```
 
-5. Deploy the app:
+6. Deploy the app:
 
     ```shell
     azd up
