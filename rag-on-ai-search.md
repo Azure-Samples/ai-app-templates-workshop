@@ -15,7 +15,7 @@ For this project, you must first deploy to Azure before you can run it locally, 
 
 Open the project in GitHub Codespaces by clicking the button below:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/Azure-Samples/azure-search-openai-demo/)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=599293758&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2)
 
 👀 The Codespace will display the default project README when it opens. Ignore that one, and follow this guide instead.
 
