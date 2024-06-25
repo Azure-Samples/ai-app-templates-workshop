@@ -37,15 +37,27 @@ Open the project in GitHub Codespaces by clicking the button below:
 
     This will create a folder in `.azure` to store the configuration for the deployment.
 
-3. Set the following azd environment variables to use the Azure OpenAI proxy service:
+3. Set azd environment variables to use the Azure OpenAI proxy service:
 
-    ```shell
-    azd env set OPENAI_HOST azure_custom
-    azd env set AZURE_OPENAI_CUSTOM_URL https://YOUR-ENDPOINT-HERE/api/v1
-    azd env set AZURE_OPENAI_API_KEY YOUR-KEY-HERE
-    azd env set AZURE_OPENAI_CHATGPT_DEPLOYMENT gpt-35-turbo
-    azd env set AZURE_OPENAI_EMB_DEPLOYMENT text-embedding-ada-002
-    ```
+    1. Run these three commands with no change:
+       
+        ```shell
+        azd env set OPENAI_HOST azure_custom
+        azd env set AZURE_OPENAI_CHATGPT_DEPLOYMENT gpt-35-turbo
+        azd env set AZURE_OPENAI_EMB_DEPLOYMENT text-embedding-ada-002
+        ```
+
+    2. Replace the value before running this command:
+        
+        ```shell
+        azd env set AZURE_OPENAI_CUSTOM_URL https://YOUR-ENDPOINT-HERE/api/v1
+        ```
+  
+    3. Replace the value before running this command:
+  
+       ```shell
+        azd env set AZURE_OPENAI_API_KEY YOUR-KEY-HERE
+        ```
 
 4. Deploy the app:
 
