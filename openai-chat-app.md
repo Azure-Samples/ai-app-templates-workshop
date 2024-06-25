@@ -69,15 +69,15 @@ This step will run the app in a local server inside GitHub Codespaces.
         ```
 
     2. Replace the value before running this command:
-   
-        ```shell
-        azd env set AZURE_OPENAI_ENDPOINT https://YOUR-ENDPOINT-HERE/api/v1
-        ```
-
-    3. Replace the value before running this command:
 
         ```shell
         azd env set AZURE_OPENAI_KEY YOUR-KEY-HERE
+        ```
+
+    3. Replace the value before running this command:
+   
+        ```shell
+        azd env set AZURE_OPENAI_ENDPOINT https://YOUR-ENDPOINT-HERE/api/v1
         ```
 
 7. Deploy the app:
