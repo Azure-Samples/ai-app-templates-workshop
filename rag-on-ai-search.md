@@ -48,17 +48,17 @@ Open the project in GitHub Codespaces by clicking the button below:
         ```
 
     2. Replace the value before running this command:
-        
-        ```shell
-        azd env set AZURE_OPENAI_CUSTOM_URL https://YOUR-ENDPOINT-HERE/api/v1
-        ```
-  
-    3. Replace the value before running this command:
   
        ```shell
         azd env set AZURE_OPENAI_API_KEY YOUR-KEY-HERE
         ```
 
+    3. Replace the value before running this command:
+        
+        ```shell
+        azd env set AZURE_OPENAI_CUSTOM_URL https://YOUR-ENDPOINT-HERE/api/v1
+        ```
+  
 4. Deploy the app:
 
     ```shell
